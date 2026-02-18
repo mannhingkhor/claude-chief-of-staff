@@ -1,58 +1,75 @@
-# Goals — Your Quarterly Objectives
+# Goals — Q1 2026 Objectives
 #
 # This file is the source of truth for "what should I be working on?"
 # Claude references it constantly when prioritizing your time,
 # triaging your inbox, and deciding what meetings to accept.
 #
 # Update quarterly. Review weekly.
-#
-# How to use:
-#   - Define 3-5 objectives (fewer is better)
-#   - Each objective should be specific, measurable, and time-bound
-#   - Include key results that define success
-#   - Update progress (0.0 to 1.0) as you make headway
-#   - Claude will flag when progress stalls
 
 quarter: "Q1 2026"
-last_updated: "2026-01-01"
+last_updated: "2026-02-18"
 
 objectives:
-  - name: "Example: Launch new product feature"
-    target: "Ship to 100% of users by end of Q1"
+  - name: "WPP Central Surveys Full Launch"
+    target: "Full survey launch ready by May 2026"
     priority: 1
     key_results:
-      - "Feature spec complete by Jan 31"
-      - "Beta with 10 customers by Feb 28"
-      - "Full rollout by Mar 31"
-    progress: 0.0
-    status: "on_track"   # on_track | at_risk | behind | complete
-    notes: ""
+      - "Demographic mapping unblocked for pilot by Feb 28"
+      - "AI Comment Summaries shipped by March 31"
+      - "Central survey closed with aggregated report viewable"
+      - "Customer (Tatum) can complete full workflow end-to-end"
+    progress: 0.4
+    status: "at_risk"
+    notes: "Pilot blocked on demographic values visibility. SQL script workaround in progress."
 
-  - name: "Example: Grow revenue 30%"
-    target: "$X pipeline by end of quarter"
+  - name: "HR BP Scoped Roles Ship"
+    target: "Ship with Engage release Q1"
     priority: 2
     key_results:
-      - "Hire 2 sales reps by Feb 15"
-      - "Launch outbound motion by Feb 28"
-      - "Close 5 new enterprise deals by Mar 31"
-    progress: 0.0
+      - "Error handling complete (permission vs no-data states)"
+      - "FAQ and documentation published"
+      - "Edge cases validated with engineering"
+      - "No P1 bugs at launch"
+    progress: 0.6
     status: "on_track"
-    notes: ""
+    notes: "Error handling spec complete. Documentation created. Feature naming TBD."
 
-  - name: "Example: Build high-performing team"
-    target: "Complete hiring plan and establish rituals"
+  - name: "Central Surveys Handover"
+    target: "Smooth transition to Survey Design team"
     priority: 3
     key_results:
-      - "Fill 3 open roles by Feb 28"
-      - "Launch weekly team sync and monthly retrospective"
-      - "Complete first round of performance reviews"
-    progress: 0.0
+      - "All documentation updated and complete"
+      - "Support runbook published"
+      - "Known issues and workarounds documented"
+      - "Survey Design team onboarded"
+    progress: 0.3
     status: "on_track"
-    notes: ""
+    notes: "Documentation in good shape. Handover timing depends on WPP pilot completion."
 
-# Personal goals (optional — Claude respects work-life balance)
+  - name: "New Insights Experience Discovery"
+    target: "Clear direction by end of Q1"
+    priority: 4
+    key_results:
+      - "Customer research complete"
+      - "Problem space defined"
+      - "Initial concepts explored with design"
+      - "Engineering feasibility assessed"
+    progress: 0.1
+    status: "not_started"
+    notes: "Lower priority until WPP pilot stabilizes."
+
+# Personal goals
 personal:
-  - name: "Example: Exercise 4x per week"
-    progress: 0.0
-  - name: "Example: Read 12 books this year"
-    progress: 0.0
+  - name: "Build strong engineering relationships"
+    progress: 0.7
+    notes: "Philip and Ryan relationships strong. Continue investing."
+
+  - name: "Improve spec writing quality"
+    progress: 0.5
+    notes: "Focus on edge cases and acceptance criteria."
+
+# What to deprioritize this quarter
+deprioritize:
+  - "New feature ideation outside current workstreams"
+  - "Attending optional meetings"
+  - "Perfectionism on internal docs"
